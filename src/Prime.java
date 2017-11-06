@@ -30,7 +30,7 @@ public class Prime {
 		  
 		  int maxToTest = (int)Math.sqrt((double)thisFloor);
 		  System.out.println("Maximum prime to test through: " + maxToTest);
-		  for(int i = 1; primes.get(i) < maxToTest;) {
+		  for(int i = 1; primes.get(i) <= maxToTest;) {
 			int testResult;
 			int primeToCheck = primes.get(i);
 			testResult = thisFloor%primes.get(i);
